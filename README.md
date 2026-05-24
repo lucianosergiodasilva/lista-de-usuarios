@@ -1,3 +1,4 @@
+
 # Consumindo API com Axios 🚀
 
 Projeto de estudo desenvolvido para praticar o consumo de APIs REST utilizando a biblioteca Axios em um ecossistema React.
@@ -16,7 +17,8 @@ Este projeto é um caso de estudo prático que tem como objetivo principal demon
 
 Aqui está o visual da aplicação em funcionamento:
 
-![Demonstração do Projeto](image_0447cc.png)
+<img width="1020" height="677" alt="print-axios" src="https://github.com/user-attachments/assets/155bb8d8-cff5-48a7-91f8-47fa8203f48f" />
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -34,10 +36,4 @@ Os dados exibidos na tabela são consumidos de forma dinâmica a partir da segui
 
 - **JSONPlaceholder:** [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
 
-## 📂 Como Clonar o Projeto
 
-Você pode clonar este repositório localmente utilizando o link abaixo:
-
-```bash
-git clone [link]
-```
