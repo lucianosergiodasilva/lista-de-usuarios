@@ -1,0 +1,102 @@
+:root {
+  --cor-destaque: #f23e02;
+  --cor-clara: #fef5c8;
+  --cor-media: #00988d;
+  --cor-media1: #04dfd0;
+  --cor-media2: #2c6b74;
+  --cor-escura: #013750;
+  --border-radius: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--cor-media);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 20px 0;
+  color: var(--cor-escura);
+  text-shadow: 0 1px 1px var(--cor-media1);
+}
+
+p {
+  color: var(--cor-escura);
+  text-shadow: 0 1px 1px var(--cor-media1);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.usuario {
+  background-color: var(--cor-clara);
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+table thead tr {
+  background-color: var(--cor-media2);
+  color: white;
+}
+table thead tr th {
+  padding: 10px;
+}
+table tbody tr {
+  border-top: 2px solid var(--cor-escura);
+}
+table tbody tr td {
+  padding: 10px;
+}
+/* Arredonda o canto superior esquerdo */
+tr:first-child th:first-child {
+  border-top-left-radius: var(--border-radius);
+}
+/* Arredonda o canto superior direito */
+tr:first-child th:last-child {
+  border-top-right-radius: var(--border-radius);
+}
+
+/* Arredonda o canto inferior esquerdo */
+tr:last-child td:first-child {
+  border-bottom-left-radius: var(--border-radius);
+}
+
+/* Arredonda o canto inferior direito */
+tr:last-child td:last-child {
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.botoes button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid var(--cor-media2);
+  background-color: var(--cor-destaque);
+  color: white;
+  cursor: pointer;
+}
+
+.botoes button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.botoes span {
+  color: var(--cor-escura);
+  font-size: 0.8rem;
+  text-shadow: 0 1px 1px var(--cor-media1);
+}
